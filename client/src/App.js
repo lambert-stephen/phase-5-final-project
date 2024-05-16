@@ -48,7 +48,7 @@ function App() {
         socket.disconnect();
       };
     }
-  }, [user]);
+  }, []);
 
   useEffect(() => {
     fetch('/api/check_session')
